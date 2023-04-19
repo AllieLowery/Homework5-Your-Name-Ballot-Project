@@ -13,6 +13,8 @@
 		6AD3DA6229E7562A00B30803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3DA6029E7562A00B30803 /* Main.storyboard */; };
 		6AD3DA6429E7562C00B30803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3DA6329E7562C00B30803 /* Assets.xcassets */; };
 		6AD3DA6729E7562C00B30803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3DA6529E7562C00B30803 /* LaunchScreen.storyboard */; };
+		6AD3DA6F29E75A9000B30803 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DA6E29E75A9000B30803 /* VotingViewController.swift */; };
+		6AD3DA7129E75B0100B30803 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DA7029E75B0100B30803 /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6AD3DA6329E7562C00B30803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AD3DA6629E7562C00B30803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AD3DA6829E7562C00B30803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD3DA6E29E75A9000B30803 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		6AD3DA7029E75B0100B30803 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6AD3DA5C29E7562A00B30803 /* SceneDelegate.swift */,
 				6AD3DA5E29E7562A00B30803 /* ViewController.swift */,
 				6AD3DA6029E7562A00B30803 /* Main.storyboard */,
+				6AD3DA7029E75B0100B30803 /* TBViewController.swift */,
+				6AD3DA6E29E75A9000B30803 /* VotingViewController.swift */,
 				6AD3DA6329E7562C00B30803 /* Assets.xcassets */,
 				6AD3DA6529E7562C00B30803 /* LaunchScreen.storyboard */,
 				6AD3DA6829E7562C00B30803 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD3DA7129E75B0100B30803 /* TBViewController.swift in Sources */,
 				6AD3DA5F29E7562A00B30803 /* ViewController.swift in Sources */,
 				6AD3DA5B29E7562A00B30803 /* AppDelegate.swift in Sources */,
 				6AD3DA5D29E7562A00B30803 /* SceneDelegate.swift in Sources */,
+				6AD3DA6F29E75A9000B30803 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
